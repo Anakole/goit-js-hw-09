@@ -8,17 +8,6 @@ function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
 
-// const changeBgColor = event => {
-//   const intervalId = setInterval(() => {
-//     const color = getRandomHexColor();
-//     refs.bg.style.backgroundColor = color;
-
-//     refs.stopBtn.addEventListener('click', () => {
-//       clearInterval(intervalId);
-//     });
-//   }, 1000);
-// };
-
 const colorInterval = {
   intervalId: null,
   isActive: false,
