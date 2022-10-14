@@ -26,6 +26,7 @@ function createPromise(position, delay) {
     }, delay);
   });
 }
+//
 
 const onSuccess = ({ position, delay }) => {
   Notify.success(`✅ Fulfilled promise ${position} in ${delay}ms`);
